@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WS Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="login-screen">
+            <h1>Simple Chat</h1>
+            <input type="text" id="username-input" placeholder="Enter your username..." autocomplete="off">
+            <button id="join-btn">Join Chat</button>
+        </div>
+
+        <div id="chat-screen" class="hidden">
+            <div id="chat-header">
+                <h2>Chat Room</h2>
+                <span id="current-user"></span>
+            </div>
+            <div id="message-container"></div>
+            <div id="input-area">
+                <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
